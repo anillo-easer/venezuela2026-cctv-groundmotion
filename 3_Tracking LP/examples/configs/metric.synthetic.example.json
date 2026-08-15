@@ -1,0 +1,41 @@
+{
+  "video_path": "../../data/view_1.mp4",
+  "output_directory": "../../runs/view_1_metric",
+  "remap_path": null,
+  "target": {
+    "mode": "manual",
+    "track_path": "../../manual_tracks/view_1_target.csv",
+    "roi_xyxy": [420, 60, 560, 210],
+    "anchor_frame": 0,
+    "start_frame": 0,
+    "end_frame": null,
+    "positive_points_xy": [],
+    "negative_points_xy": [],
+    "minimum_area_px": 1,
+    "maximum_step_px": null
+  },
+  "ground": {
+    "reference_frame": 0,
+    "rois_xywh": [
+      [560, 220, 80, 50],
+      [700, 220, 80, 50],
+      [840, 220, 80, 50]
+    ],
+    "search_radius_px": [25, 25],
+    "min_correlation": 0.6,
+    "consensus_threshold_px": 3.0,
+    "min_inliers": 2
+  },
+  "relative": {
+    "zero_frame_start": 0,
+    "zero_frame_end": 99
+  },
+  "metric": {
+    "calibration_path": "../calibration/metric.synthetic.example.json",
+    "calibration_sha256": "93b74fcc462350a41a7cbcf544ec7e6a8b667bce5caa9b713f24edb93ad3b86d"
+  },
+  "qa": {
+    "enabled": true,
+    "output_path": "../../runs/view_1_metric/qa_video.mp4"
+  }
+}

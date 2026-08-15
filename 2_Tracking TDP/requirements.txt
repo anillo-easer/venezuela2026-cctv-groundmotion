@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+matplotlib
+opencv-python
+geopandas
+ipympl
+ipywidgets
+jupyterlab

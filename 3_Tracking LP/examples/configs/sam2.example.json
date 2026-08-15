@@ -1,0 +1,47 @@
+{
+  "video_path": "../../data/view_1.mp4",
+  "output_directory": "../../runs/view_1_sam2",
+  "remap_path": null,
+  "target": {
+    "mode": "sam2",
+    "track_path": null,
+    "roi_xyxy": [420, 60, 560, 210],
+    "anchor_frame": 0,
+    "anchor_target_xy": null,
+    "start_frame": 0,
+    "end_frame": null,
+    "positive_points_xy": [[486.0, 118.0]],
+    "negative_points_xy": [[510.0, 95.0], [475.0, 165.0]],
+    "minimum_area_px": 20,
+    "maximum_step_px": 15.0,
+    "corrections_path": null
+  },
+  "ground": {
+    "reference_frame": 0,
+    "rois_xywh": [
+      [560, 220, 80, 50],
+      [700, 220, 80, 50],
+      [840, 220, 80, 50],
+      [980, 220, 80, 50]
+    ],
+    "search_radius_px": [25, 25],
+    "min_correlation": 0.6,
+    "consensus_threshold_px": 3.0,
+    "min_inliers": 3,
+    "corrections_path": null
+  },
+  "relative": {
+    "zero_frame_start": 0,
+    "zero_frame_end": 99
+  },
+  "metric": null,
+  "sam2": {
+    "checkpoint_path": "../../checkpoints/sam2.1_hiera_tiny.pt",
+    "model_config": "configs/sam2.1/sam2.1_hiera_t.yaml",
+    "device": "cuda"
+  },
+  "qa": {
+    "enabled": true,
+    "output_path": "../../runs/view_1_sam2/qa_video.mp4"
+  }
+}

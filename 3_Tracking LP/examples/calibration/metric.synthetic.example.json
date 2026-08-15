@@ -1,0 +1,39 @@
+{
+  "schema_version": "light_pole_metric_calibration_v1",
+  "validation_status": "synthetic_example_not_for_physical_use",
+  "physical_use_allowed": false,
+  "coordinate_contract": {
+    "coordinate_frame_id": "synthetic_local_xy",
+    "motion_subspace": "horizontal_world_xy",
+    "ground_plane_z_m": 0.0,
+    "ground_reference_frame": 0
+  },
+  "image_geometry": {
+    "model": "undistorted_pinhole",
+    "width_px": 100,
+    "height_px": 70,
+    "remap_sha256": null
+  },
+  "material_point_world_xyz_m": [3.0, 0.5, 10.0],
+  "camera_matrix_px": [
+    [100.0, 0.0, 50.0],
+    [0.0, 100.0, 35.0],
+    [0.0, 0.0, 1.0]
+  ],
+  "rotation_world_to_camera": [
+    [1.0, 0.0, 0.0],
+    [0.0, 1.0, 0.0],
+    [0.0, 0.0, 1.0]
+  ],
+  "optical_center_world_xyz_m": [0.0, 0.0, 0.0],
+  "image_measurement_axis_xy": [1.0, 0.0],
+  "physical_reference": {
+    "description": "Known tracked-point height above the ground plane",
+    "value_m": 10.0,
+    "uncertainty_m": null,
+    "source": "Synthetic example",
+    "relationship": "world_z_above_ground_plane"
+  },
+  "minimum_horizontal_sensitivity_px_per_m": 1.0,
+  "maximum_rest_reprojection_error_px": 1.0
+}

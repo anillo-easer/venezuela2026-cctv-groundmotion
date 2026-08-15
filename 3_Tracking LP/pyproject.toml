@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "light-pole-motion-tracking"
+version = "0.3.0"
+description = "Track ground-relative light-pole motion in pixels and conditional metres."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24,<3",
+    "opencv-python-headless>=4.8,<5",
+]
+
+[project.optional-dependencies]
+sam2 = [
+    "SAM-2 @ git+https://github.com/facebookresearch/sam2.git@2b90b9f5ceec907a1c18123530e92e794ad901a4",
+]
+dev = [
+    "build>=1.2,<2",
+    "pytest>=8,<9",
+    "ruff>=0.12,<1",
+]
+
+[project.scripts]
+pole-track = "light_pole_tracking.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["light_pole_tracking*"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

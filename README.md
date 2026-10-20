@@ -2,7 +2,7 @@
 
 Data and code supporting:
 
-> Bustos, J., N. Girmay, M. Bravo-Haro, R. Rojas, D. Montemayor, P. Heresi, E. Miranda, F. Pinto, G. Montalva, N. Bastías, J. Ojeda, F. Paz, F. Villena, and A. Villegas. **Ground motion intensity in Caraballeda during the Mw 7.5 June 24, 2026, Venezuela earthquake estimated from CCTV video.** Submitted to *The Seismic Record*.
+> Bustos, J., N. Girmay, M. Bravo-Haro, R. Rojas, D. Montemayor, P. Heresi, E. Miranda, F. Pinto, G. Montalva, N. Bastías, J. Ojeda, F. Paz, F. Villena, and A. Villegas. (2026) **Ground motion intensity in Caraballeda during the Mw 7.5 June 24, 2026, Venezuela earthquake estimated from CCTV video.** *The Seismic Record* 6(4):411–422. https://doi.org/10.1785/0320260045.
 
 ## Summary
 
@@ -91,7 +91,7 @@ Both files share the same column layout:
 
 If you use this code or data, please cite the paper:
 
-> Bustos, J., N. Girmay, M. Bravo-Haro, R. Rojas, D. Montemayor, P. Heresi, E. Miranda, F. Pinto, G. Montalva, N. Bastías, J. Ojeda, F. Paz, F. Villena, and A. Villegas (submitted). Ground motion intensity in Caraballeda during the Mw 7.5 June 24, 2026, Venezuela earthquake estimated from CCTV video, *The Seismic Record*.
+> Bustos, J., N. Girmay, M. Bravo-Haro, R. Rojas, D. Montemayor, P. Heresi, E. Miranda, F. Pinto, G. Montalva, N. Bastías, J. Ojeda, F. Paz, F. Villena, and A. Villegas (2026). Ground motion intensity in Caraballeda during the Mw 7.5 June 24, 2026, Venezuela earthquake estimated from CCTV video, *The Seismic Record* 6(4):411–422. https://doi.org/10.1785/0320260045.
 
 *Citation details will be updated with the full reference and DOI upon publication.*
 

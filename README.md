@@ -93,8 +93,6 @@ If you use this code or data, please cite the paper:
 
 > Bustos, J., N. Girmay, M. Bravo-Haro, R. Rojas, D. Montemayor, P. Heresi, E. Miranda, F. Pinto, G. Montalva, N. Bastías, J. Ojeda, F. Paz, F. Villena, and A. Villegas (2026). Ground motion intensity in Caraballeda during the Mw 7.5 June 24, 2026, Venezuela earthquake estimated from CCTV video, *The Seismic Record* 6(4):411–422. https://doi.org/10.1785/0320260045.
 
-*Citation details will be updated with the full reference and DOI upon publication.*
-
 ## Acknowledgments
 
 The post-earthquake field campaign was funded by the John A. Blume Earthquake Engineering Center and Universidad de Chile. The authors thank José Elías Naassaneh for providing the CCTV footage and site access, and Alexandra López, Aitor Munarriz, Ana Marcano, and Martín Arnal for assistance with the in-situ friction tests. This work was also supported by ANID through FONDECYT Iniciación en Investigación Grant No. 11260870, FONDECYT Regular Grant No. 1261147, and ANILLO EASER (Evolution Assessment of Seismic Risk) Project under Grant No. ACT240044.
